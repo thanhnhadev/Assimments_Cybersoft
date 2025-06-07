@@ -33,7 +33,7 @@ public class Test1 {
         driver.findElement(By.xpath(Locator_CMS.lbCurrent)).click();
         driver.findElement(By.xpath(Locator_CMS.dropDownJobTitle)).click();
         driver.findElement(By.xpath(Locator_CMS.lbAutomation)).click();
-        //driver.findElement(By.xpath(Locator_CMS.dropDownSubUnit)).click();
+        driver.findElement(By.xpath(Locator_CMS.dropDownSubUnit)).click();
         driver.findElement(By.xpath(Locator_CMS.lbOHRM)).click();
         Thread.sleep(5000);
         driver.quit();

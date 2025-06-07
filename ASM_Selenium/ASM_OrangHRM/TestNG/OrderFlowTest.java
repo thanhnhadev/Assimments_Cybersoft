@@ -54,6 +54,7 @@ public class OrderFlowTest {
         driver.findElement(By.xpath(Locator_CMS.ad_sTatus)).click();
         driver.findElement(By.xpath(Locator_CMS.ad_enaBled)).click();
         driver.findElement(By.xpath(Locator_CMS.btnSearch)).click();
+        this.testScrollPage();
         // In thông báo
         System.out.println("Đã nhập thông tin tìm kiếm thành công trong Admin.");
     }
@@ -74,6 +75,7 @@ public class OrderFlowTest {
         driver.findElement(By.xpath(Locator_CMS.dropDownSubUnit)).click();
         driver.findElement(By.xpath(Locator_CMS.lbOHRM)).click();
         driver.findElement(By.xpath(Locator_CMS.btnSearch)).click();
+        this.testScrollPage();
         // In thông báo
         System.out.println("Đã nhập thông tin tìm kiếm thành công trong PIM.");
     }
@@ -82,6 +84,7 @@ public class OrderFlowTest {
         this.verifyLoginPage();
         driver.findElement(By.xpath(Locator_CMS.itemLeave)).click();
 //        driver.findElement(By.xpath(Locator_CMS.leaveList)).click();
+//        this.testScrollPage();
         // In thông báo
         System.out.println("Đã nhập thông tin tìm kiếm thành công trong Leave.");
     }

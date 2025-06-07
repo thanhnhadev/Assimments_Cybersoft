@@ -18,6 +18,7 @@ public class Locator_CMS {
     //Home Page
 
     //Menu Item
+    public static final String tileHeader="(//*[text()='Dashboard'])[2]";
     public static final String avatarDdAbout="//*[contains(@class,'oxd-userdropdown')]/descendant::ul[contains(@class,'oxd-dropdown-menu')]/li[1]";
     public static final String avatarDdSupport="//*[contains(@class,'oxd-userdropdown')]/descendant::ul[contains(@class,'oxd-dropdown-menu')]/li[2]";
     public static final String avatarDdPassWord="//*[contains(@class,'oxd-userdropdown')]/descendant::ul[contains(@class,'oxd-dropdown-menu')]/li[1]";
@@ -47,7 +48,7 @@ public class Locator_CMS {
     public static final String ad_empName="//*[text()='Employee Name']/following::div[@class='oxd-autocomplete-wrapper'][1]//input";
     public static final String ad_sTatus="//*[text()='Status']/following::div[@class='oxd-select-wrapper'][1]";
     public static final String ad_enaBled="//*[contains(text(),'Enabled')]";
-
+    public static final String btnAddAdmin="(//*[contains(@type,'button')])[6]";
     //Body Pim
     public static final String inputEmplyessName="(//div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active'])[1]/child::input";
     public static final String inputEmplyessid="(//input[@class='oxd-input oxd-input--active'])[2]";
@@ -61,5 +62,21 @@ public class Locator_CMS {
     public static final String lbAutomation="//*[contains(text(),'Database Administrator')]";
     public static final String lbOHRM="//*[contains(text(),'Finance')]";
     //Body Leave
+
+    //table
+    public static final String ip_Checkbox="(//*[contains(@role,'columnheader')])[1]";
+    public static final String lbUser="(//*[contains(@role,'columnheader')])[2]";
+    public static final String lbUserRole="(//*[contains(@role,'columnheader')])[3]";
+    public static final String lbEmployeeName="(//*[contains(@role,'columnheader')])[4]";
+    public static final String lbStatus="(//*[contains(@role,'columnheader')])[5]";
+    public static final String lbAction="(//*[contains(@role,'columnheader')])[6]";
+    //data table
+    public static final String ipCheckbox="(//*[contains(@role,'cell')])[1]";
+    public static final String dataUser="(//*[contains(@role,'cell')])[2]";
+    public static final String dataUserRole="(//*[contains(@role,'cell')])[3]";
+    public static final String dataEmployeeName="(//*[contains(@role,'cell')])[4]";
+    public static final String dataStatus="(//*[contains(@role,'cell')])[5]";
+    public static final String btnTrash="((//*[contains(@class,'oxd-table-cell-actions')])[1]//following::button[contains(@class,'oxd-icon-button oxd-table-cell-action-space')][1])[1]";
+    public static final String btnEdit="((//*[contains(@class,'oxd-table-cell-actions')])[1]//following::button[contains(@class,'oxd-icon-button oxd-table-cell-action-space')][1])[2]";
 
 }
